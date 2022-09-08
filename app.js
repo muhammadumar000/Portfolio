@@ -1,6 +1,6 @@
 const preLoader = document.getElementById('preLoader');
 
-window.addEventListener('load', function(){
+window.addEventListener('DOMContentLoaded', function(){
     preLoader.style.display = 'none';
 })
 
