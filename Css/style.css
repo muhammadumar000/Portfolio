@@ -7,6 +7,20 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+/* Pre loader */
+
+#preLoader{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff url('/Imgs/preLoader.gif') no-repeat center center;
+  z-index: 2000;
+}
 a {
   text-decoration: none;
   color: #ebfbd4e6;

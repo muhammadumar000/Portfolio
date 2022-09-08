@@ -1,3 +1,11 @@
+const preLoader = document.getElementById('preLoader');
+
+window.addEventListener('load', function(){
+    preLoader.style.display = 'none';
+})
+
+
+
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
